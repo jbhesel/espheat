@@ -90,9 +90,9 @@ def put_https(url, sensor_data):
         # print('Status:', status)
         return response
     else:
-        print('Failed to send data')
+        print('Failed to send data to', url )
         print('Error:', response)
-        return false
+        return False
 
 # Main program configuration
 WIFI_SSID = 'YourWiFiName'
