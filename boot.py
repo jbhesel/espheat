@@ -5,6 +5,7 @@ import time
 import qlib
 import qtalk
 import qsens
+import qini
 
 starttime = time.time()
 qversion = 'OA24-1'
